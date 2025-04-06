@@ -3,7 +3,7 @@ from Bio import SeqIO
 import io
 
 st.set_page_config(page_title="FASTA 配列カウンター", layout="centered")
-st.title("🧬 FASTAファイルの配列数をカウントするアプリ")
+st.title("🧬 FASTAファイルの配列の数をカウントするアプリ")
 
 # ファイルアップロード
 uploaded_file = st.file_uploader("FASTAファイルをアップロードしてください", type=["fasta", "fa"])
